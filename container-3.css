@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Proza+Libre:ital,wght@0,400;1,400;1,500;1,600;1,700&display=swap');
+.container-3
+{
+    margin-top: 64px;
+    /* border: 1px solid red; */
+}
+.maindiv
+{
+    width: 1196px;
+    height: 2760px;
+    display: flex;
+    justify-content: space-between;
+}
+.maindiv .div11
+{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.one a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.box_container-bigDiv-1,.box_container-bigDiv-2,.box_container-bigDiv-3,.box_container-bigDiv-4,.box_container-bigDiv-5
+{
+    /* border: 1px solid red; */
+    width: 775px;
+    height: 516px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+.box_container-bigDiv img{
+    width: 100%;
+    position: relative;
+}
+.box_container-bigDiv-1 .one,.box_container-bigDiv-2 .one,.box_container-bigDiv-3 .one,.box_container-bigDiv-4 .one,.box_container-bigDiv-5 .one{
+    width: 203px;
+    height: 30px;
+    /* border: 1px solid red; */
+    padding : 3px 7px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background: #61A2C8;
+    border-radius: 34.5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight : 600;
+    margin: 0px 20px;
+    position: relative;
+    top : -20px;
+    align-self: flex-end;
+}
+
+.box_container-bigDiv-1 .two,.box_container-bigDiv-2 .two,.box_container-bigDiv-3 .two,.box_container-bigDiv-4 .two,.box_container-bigDiv-5 .two{
+     width: 713px;
+    height: 65px;
+    margin: 0px 5px 6px 20px;
+}
+
+.box_container-bigDiv-1 .two,.box_container-bigDiv-2 .two,.box_container-bigDiv-3 .two,.box_container-bigDiv-4 .two,.box_container-bigDiv-5 .two p{
+    
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 149.8%;
+    color: #4F516B;  
+}
+
+.box_container-bigDiv-1 .three, .box_container-bigDiv-2 .three, .box_container-bigDiv-3 .three, .box_container-bigDiv-4 .three, .box_container-bigDiv-5 .three{
+    width: 234px;
+    height: 24px;
+    font-family: 'Proza Libre', sans-serif;
+    align-self: flex-start;
+    margin: 6px 5px 10px 35px;
+}
+
+.box_container-bigDiv-1 .three, .box_container-bigDiv-2 .three, .box_container-bigDiv-3 .three, .box_container-bigDiv-4 .three, .box_container-bigDiv-5 .three p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149.8%;
+    color: #9A9A9B;
+}
+
+.box_container-bigDiv-1 .four, .box_container-bigDiv-2 .four, .box_container-bigDiv-3 .four, .box_container-bigDiv-4 .four, .box_container-bigDiv-5 .four{
+    align-self: flex-start;
+    margin: 0px 5px 15px 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    background: linear-gradient(180deg, #444BAB 0%, #3E8EBC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+.maindiv .div22
+{
+    width: 373px;
+    /* border: 1px solid red; */
+    height: 553px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.div22 h2{
+    width: 357px;
+    height: 39px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 149.8%;
+    text-align: center;
+    color: #4F516B;
+
+}
+.listclass
+{
+    margin-top: 31px;
+    width: 373px;
+    height: 483px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.listclass h3{
+    /* border: 1px solid red; */
+    margin-left: 25px;
+    width: 319px;
+    height: 66px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 149.8%;
+    color: #65677E;
+
+}
+.icons
+{
+   
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons img{
+    width: 50px;
+    height: 50px;
+}
+
